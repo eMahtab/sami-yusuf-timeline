@@ -1,0 +1,27 @@
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  /*background: #303e49;*/
+  /*background-image: url('../images/sami_yusuf.jpg');*/
+  background-image: url('../images/sami-yusuf-tumblr.jpg');
+
+  background-size: cover;
+  /*background-size: 100% 100%;*/
+
+}
+header h1 {
+  color: white;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+@media only screen and (min-width: 1170px) {
+  header {
+    height: 550px;
+    line-height: 300px;
+  }
+  header h1 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
