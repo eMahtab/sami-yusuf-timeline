@@ -95,13 +95,14 @@ header h1 {
   left: 50%;   top: 50%;
   margin-left: -12px;  margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
+
+.cd-timeline-img.icon-green {
   background: #75ce66;
 }
-.cd-timeline-img.cd-movie {
+.cd-timeline-img.icon-red {
   background: #c03b44;
 }
-.cd-timeline-img.cd-location {
+.cd-timeline-img.icon-yellow {
   background: #f0ca45;
 }
 

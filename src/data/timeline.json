@@ -1,0 +1,46 @@
+[
+
+  { "heading":"Childhood",
+    "event":"Sami Yusuf born in Tehran (Iran). Sami's parents were from azerbaijan but he was raised in London from an early age",
+    "icon_file_name":"location.svg",
+    "date":"Jul 1980"
+  },
+
+  { "heading":"First album Al-Mu`allim",
+    "event":"Sami Yusuf released his debut album Al-Mu`allim which became an instant hit in the Middle East, North Africa, and South-East Asia, selling over 7 million copies worldwide",
+    "icon_file_name":"movie.svg",
+    "date":"Jul 2003"
+  },
+
+  { "heading":"Release of My Ummah",
+    "event":"Sami gained worldwide recognition following the release of his second album, My Ummah",
+    "icon_file_name":"movie.svg",
+    "date":"Jul 2005"
+  },
+
+  { "heading":"Dispute with Awakening records",
+    "event":"In a contractual dispute lasting from 2008 to 2009, Yusuf legally separated from his former record label Awakening and signed a five-album contract with the UK-based record label ETM International",
+    "icon_file_name":"movie.svg",
+    "date":"Jan 2009"
+  },
+  { "heading":"Awarded Doctor of Letters degree",
+    "event":"Sami Yusuf was awarded an honorary Doctor of Letters degree in recognition of his 'extraordinary contributions to the field of music' by Roehampton University in southwest London",
+    "icon_file_name":"movie.svg",
+    "date":"Jul 2009"
+  },
+  { "heading":"Release of You came to me",
+    "event":"Sami released 'You Came To Me' in four languages (English, Arabic, Turkish, and Persian)",
+    "icon_file_name":"movie.svg",
+    "date":"Aug 2009"
+  },
+  { "heading":"Release of Wherever you are",
+    "event":"In an interview Sami said 'I will not sing religious-themed music just for the sake of business – it's got to be what I feel'. Sami released his third, official studio album named 'Wherever You Are'",
+    "icon_file_name":"movie.svg",
+    "date":"Oct 2010"
+  },
+  { "heading":"Concerts & Tours",
+    "event":"Sami performed in many concerts held in London, Washington DC, Turkey, Malaysia, Lebanon, Morroco, Germany, Sweden, Netherlands, Mecadonia, Australia, Denmark, Finland, Russia, Dubai and many more",
+    "icon_file_name":"location.svg",
+    "date":"Jan 2011- Dec 2016"
+  }
+]
