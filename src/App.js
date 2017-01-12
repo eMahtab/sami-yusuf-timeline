@@ -5,7 +5,6 @@ const App = () => {
 }
 
 const Header = () =>  {
-   //const header_style={marginTop:"60px"} ;
    return <header > <h1></h1> </header>
 }
 
@@ -44,7 +43,6 @@ class TimelineItem extends React.Component {
       <div>
         { this.state.events.map(function(event,index,events){
           let image_file_path='../images/timeline-icons/'+event.icon_file_name;
-          console.info("Events : "+events.length)
           let icon_class="icon-yellow";
           if(index %2 == 0){
             icon_class="icon-green";
