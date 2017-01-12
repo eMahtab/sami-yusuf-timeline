@@ -10,7 +10,7 @@ const Header = () =>  {
 
 const BouncingDownArrow = () => {
   return (
-      <div className="bounce">
+      <div id="down-arrow" className="bounce">
              <i  style={{fontSize:"30px"}} className="fa fa-angle-double-down"></i>
       </div>
          );
