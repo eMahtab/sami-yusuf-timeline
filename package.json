@@ -1,16 +1,26 @@
 {
-  "name": "anne-frank-story",
+  "name": "sami-yusuf-timeline",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "clean-dist": "rimraf dist",
+
+    "copy-html": "cpy src/index.html dist/sami-yusuf-timeline",
+    "copy-data": "cpy src/data/timeline.json dist/sami-yusuf-timeline/data",
+    "copy-favicon": "cpy src/images/favicon.ico dist/sami-yusuf-timeline/images",
+    "copy-images":"cpy src/images/timeline-icons/* dist/sami-yusuf-timeline/images/timeline-icons",
+
+    "serve-production" :"cd dist/sami-yusuf-timeline && http-server",
+    "start": "webpack-dev-server",
+
+    "bundle":"npm run clean-dist && npm run copy-html && npm run copy-data && npm run copy-favicon && npm run copy-images",
+    "build:production": "npm run bundle && webpack --config webpack.production.config.js -p && npm run serve-production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.15.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
@@ -19,6 +29,12 @@
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
+    "cpy-cli": "^1.0.1",
+    "css-loader": "^0.26.1",
+    "http-server": "^0.9.0",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   }

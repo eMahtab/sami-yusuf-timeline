@@ -1,5 +1,10 @@
 import React from 'react';
 
+import resetStyles from './styles/reset.css';
+import mainStyles from './styles/main.css';
+import mediaQueriesStyles from './styles/media-queries.css';
+import bouncingDownArrowStyles from './styles/bouncing-down-arrow.css';
+
 const App = () => {
     return (<div><Header/><BouncingDownArrow/></div>);
 }
@@ -42,7 +47,7 @@ class TimelineItem extends React.Component {
     return (
       <div>
         { this.state.events.map(function(event,index,events){
-          let image_file_path='../images/timeline-icons/'+event.icon_file_name;
+          let image_file_path='images/timeline-icons/'+event.icon_file_name;
           let icon_class="icon-yellow";
           if(index %2 == 0){
             icon_class="icon-green";
