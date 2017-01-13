@@ -12,3 +12,12 @@ This application is a timeline of famous music singer Sami Yusuf. Application is
   Go to localhost:3333
 
 ```  
+
+
+# Running Production Bundle :
+```
+  npm run build:production  
+
+  Go to localhost:8080
+
+```  
