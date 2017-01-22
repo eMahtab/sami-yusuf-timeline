@@ -6,6 +6,7 @@ This application is a timeline of famous music singer Sami Yusuf. Application is
 
 # Local Development :
 ```
+
   npm install
   npm start
 
