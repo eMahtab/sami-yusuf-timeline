@@ -1,8 +1,8 @@
 {
   "name": "sami-yusuf-timeline",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sami Yusuf Tuimeline",
+  "main": "main.js",
   "scripts": {
     "clean-dist": "rimraf dist",
 
@@ -17,7 +17,7 @@
     "bundle":"npm run clean-dist && npm run copy-html && npm run copy-data && npm run copy-favicon && npm run copy-images",
     "build:production": "npm run bundle && webpack --config webpack.production.config.js -p && npm run serve-production"
   },
-  "keywords": [],
+  "keywords": ["Sami-yusuf-timeline"],
   "author": "",
   "license": "ISC",
   "dependencies": {
