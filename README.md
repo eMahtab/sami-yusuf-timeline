@@ -1,6 +1,8 @@
 # sami-yusuf-timeline: A timeline of famous singer Sami Yusuf using ReactJS
 
-This application is a timeline of famous music singer Sami Yusuf. This application uses ReactJS and ES6 and Webpack.
+
+This application is a timeline of famous music singer Sami Yusuf. Which is created using ReactJS and ES6
+
 
 ![](https://s3-ap-southeast-1.amazonaws.com/s3freebucket/sami-yusuf-timeline/images/sami-yusuf-tumblr.jpg)
 
