@@ -1,7 +1,7 @@
 {
   "name": "sami-yusuf-timeline",
   "version": "1.0.0",
-  "description": "Sami Yusuf Tuimeline",
+  "description": "Sami Yusuf Timeline",
   "main": "main.js",
   "scripts": {
     "clean-dist": "rimraf dist",
