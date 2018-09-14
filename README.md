@@ -3,8 +3,7 @@
 
 This application is a timeline of famous singer and composer Sami Yusuf. Which is created using ReactJS and ES6
 
-
-![](https://s3-ap-southeast-1.amazonaws.com/s3freebucket/sami-yusuf-timeline/images/sami-yusuf-tumblr.jpg)
+![Sami Yusuf](/src/images/sami-yusuf-tumblr.jpg?raw=true "Sami Yusuf")
 
 # Local Development :
 ```
