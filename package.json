@@ -5,22 +5,22 @@
   "main": "main.js",
   "scripts": {
     "clean-dist": "rimraf dist",
-
     "copy-html": "cpy src/index.html dist/sami-yusuf-timeline",
     "copy-data": "cpy src/data/timeline.json dist/sami-yusuf-timeline/data",
     "copy-favicon": "cpy src/images/favicon.ico dist/sami-yusuf-timeline/images",
-    "copy-images":"cpy src/images/timeline-icons/* dist/sami-yusuf-timeline/images/timeline-icons",
-
-    "serve-production" :"cd dist/sami-yusuf-timeline && http-server",
+    "copy-images": "cpy src/images/timeline-icons/* dist/sami-yusuf-timeline/images/timeline-icons",
+    "serve-production": "cd dist/sami-yusuf-timeline && http-server",
     "start": "webpack-dev-server",
-
-    "bundle":"npm run clean-dist && npm run copy-html && npm run copy-data && npm run copy-favicon && npm run copy-images",
+    "bundle": "npm run clean-dist && npm run copy-html && npm run copy-data && npm run copy-favicon && npm run copy-images",
     "build:production": "npm run bundle && webpack --config webpack.production.config.js -p && npm run serve-production"
   },
-  "keywords": ["Sami-yusuf-timeline"],
+  "keywords": [
+    "Sami-yusuf-timeline"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
